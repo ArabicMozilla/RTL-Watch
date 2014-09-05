@@ -1,0 +1,249 @@
+@font-face{
+
+font-family:'Open Sans Light';
+ src:url('https://www.mozilla.org/media/fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+url('https://www.mozilla.org/media/fonts/OpenSans-Light-webfont.woff') format('woff'),
+url('https://www.mozilla.org/media/fonts/OpenSans-Light-webfont.ttf') format('truetype');
+ font-weight:normal;
+ font-style:normal;
+
+}
+@font-face{
+
+font-family:'Open Sans Light';
+ src:url('https://www.mozilla.org/media/fonts/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+url('https://www.mozilla.org/media/fonts/OpenSans-Semibold-webfont.woff') format('woff'),
+url('https://www.mozilla.org/media/fonts/OpenSans-Semibold-webfont.ttf') format('truetype');
+ font-weight:bold;
+ font-style:normal;
+
+}
+@font-face{
+
+font-family:'Open Sans Light';
+ src:url('https://www.mozilla.org/media/fonts/OpenSans-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+url('https://www.mozilla.org/media/fonts/OpenSans-LightItalic-webfont.woff') format('woff'),
+url('https://www.mozilla.org/media/fonts/OpenSans-LightItalic-webfont.ttf') format('truetype');
+ font-weight:normal;
+ font-style:italic;
+
+}
+@font-face{
+
+font-family:'Open Sans';
+ src:url('https://www.mozilla.org/media/fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+url('https://www.mozilla.org/media/fonts/OpenSans-Regular-webfont.woff') format('woff'),
+url('https://www.mozilla.org/media/fonts/OpenSans-Regular-webfont.ttf') format('truetype');
+ font-weight:normal;
+ font-style:normal;
+
+}
+@font-face{
+
+font-family:'Open Sans';
+ src:url('https://www.mozilla.org/media/fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+url('https://www.mozilla.org/media/fonts/OpenSans-Bold-webfont.woff') format('woff'),
+url('https://www.mozilla.org/media/fonts/OpenSans-Bold-webfont.ttf') format('truetype');
+ font-weight:bold;
+ font-style:normal;
+
+}
+@font-face{
+
+font-family:'Open Sans';
+ src:url('https://www.mozilla.org/media/fonts/OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+url('https://www.mozilla.org/media/fonts/OpenSans-Italic-webfont.woff') format('woff'),
+url('https://www.mozilla.org/media/fonts/OpenSans-Italic-webfont.ttf') format('truetype');
+ font-weight:normal;
+ font-style:italic;
+
+}
+html,
+body {
+  margin:0;
+  padding:0;
+  font-size:13px;
+  background:#fff;
+  color:#333;
+  font-family:'Open Sans';
+  background-color:#F5F1E8;
+}
+#outer-wrapper {
+  position:relative;
+  border-top:2px solid #FFF;
+}
+#wrapper {
+  width:900px;
+  display:block;
+  margin:0 auto;
+  position:relative;
+}
+#header {
+  display:block;
+  width:100%;
+  margin:0 auto 20px;
+}
+#header h1 {
+  color:#C13832;
+  font-weight:bold;
+  letter-spacing:-0.05em;
+  font-size:54px;
+  margin:0 auto 20px auto;
+  text-shadow:0px 1px 0px rgba(255,
+  255,
+  255,
+  0.75);
+  width:100%;
+  float:right;
+}
+#header #short-description {
+  color:#404040;
+  font-size:36px;
+  font-family:"Open Sans Light",
+  X-LocaleSpecific-Light,
+  "Open Sans",
+  X-LocaleSpecific,
+  sans-serif;
+  font-weight:normal;
+  letter-spacing:-0.05em;
+  margin:0 auto 10px auto;
+  width:100%;
+}
+#header #long-description {
+  color:#404040;
+  font-size:21px;
+  font-weight:normal;
+  letter-spacing:-0.05em;
+  margin:0 auto;
+  width:100%;
+}
+#project-dash {
+  background-color:#FFFFFF;
+  width:100%;
+  display:block;
+  padding:10px 0;
+}
+#item {
+  width:calc(100% - 10px);
+  height:64px;
+  background-repeat:no-repeat;
+  background-position:top 5px left 10px;
+  margin:20px auto;
+  padding:5px 0;
+  background-size:64px auto;
+  position:relative;
+  background-color:rgb(3,
+  138,
+  204);
+  border-radius:6px;
+}
+#item #title {
+  position:absolute;
+  top:0;
+  left:85px;
+  line-height:70px;
+  color:white;
+  font-size:22px;
+}
+#call-to-action {
+  position:absolute;
+  top:0;
+  right:54px;
+  line-height:67px;
+  color:white;
+  font-size:25px;
+  text-decoration:none;
+}
+#call-to-ation:hover {
+  text-decoration:underline;
+}
+/* progress stuff */
+
+.progress {
+  overflow:hidden;
+  padding:0 15px;
+  width:220px;
+  height:34px;
+  background:#d3d5d9;
+  border-radius:1px;
+  background-color:#ebecef;
+  position:absolute;
+  top:18px;
+  right:200px;
+}
+.progress-val {
+  float:left;
+  margin-right:15px;
+  font:bold 15px/34px Helvetica,
+  Arial,
+  sans-serif;
+  color:#333;
+  text-shadow:0 1px rgba(255,
+  255,
+  255,
+  0.6);
+  line-height:31px;
+}
+.progress-bar {
+  display:block;
+  overflow:hidden;
+  height:8px;
+  margin:13px 0;
+  background:#b8b8b8;
+  border-radius:1px;
+}
+.progress-in {
+  display:block;
+  min-width:8px;
+  height:8px;
+  background:#1997e6;
+  border-radius:1px;
+  transition:width;
+}
+#event-details-1 {
+  background-color:#C1423D;
+  width:100%;
+  display:block;
+  padding:10px 0;
+}
+#event-details-1 p {
+  color:white;
+  color:white;
+  /*font-family: 'Droid Arabic Kufi', serif;*/
+  font-size:25px;
+}
+#event-details-1 #dashboard {
+  width:100%;
+  display:block;
+  margin-bottom:30px;
+}
+#event-details-1 #dashboard #sharing-element {
+  width:128px;
+  height:160px;
+  display:inline-block;
+  background-repeat:no-repeat;
+  background-position:top;
+  position:relative;
+  margin:0 5px;
+}
+#event-details-1 #dashboard #sharing-element #title {
+  color:white;
+  font-size:13px;
+  /*font-family: 'Droid Arabic Kufi', serif;*/
+  position:absolute;
+  bottom:0px;
+  font-weight:bold;
+  text-align:center;
+  width:100%;
+}
+.firefoxoslogo {
+  background-image:url("https://mozorg.cdn.mozilla.net/media/img/styleguide/identity/firefox/usage-logo.png?2013-06");
+}
+
+#bugs-status{
+  width: 100%;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  font-size: 19px;
+  line-height: 25px;
+}

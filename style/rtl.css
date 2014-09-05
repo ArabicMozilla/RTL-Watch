@@ -1,0 +1,199 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+ html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  background: #fff;
+  color: #333;
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'lucida grande', tahoma, verdana, arial, sans-serif;
+  background-color: #F5F1E8;
+}
+#outer-wrapper {
+  position: relative;
+  border-top: 2px solid #FFF;
+}
+#wrapper {
+  width: 900px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+#todayis {
+  color: #404040;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Droid Arabic Kufi', serif;
+  letter-spacing: -0.05em;
+  float: right;
+}
+#header {
+  display: block;
+  width: 100%;
+  margin: 0 auto 20px;
+}
+#header h1 {
+  color: #C13832;
+  font-weight: bold;
+  font-family: 'Droid Arabic Kufi', serif;
+  letter-spacing: -0.05em;
+  font-size: 58px;
+  margin: 0 auto;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+  width: 100%;
+  float: right;
+}
+#header #short-description {
+  color: #404040;
+  font-size: 34px;
+  font-family: 'Droid Arabic Kufi', serif;
+  letter-spacing: -0.05em;
+  margin: 0 auto;
+  width: 100%;
+}
+#header #long-description {
+  color: #404040;
+  font-size: 21px;
+  font-family: 'Droid Arabic Kufi', serif;
+  letter-spacing: -0.05em;
+  margin: 0 auto;
+  width: 100%;
+}
+#project-dash {
+  background-color: #FFFFFF;
+  width: 100%;
+  display: block;
+  padding: 10px 0;
+}
+#item {
+  width: calc(100% - 10px);
+  height: 64px;
+  background-repeat: no-repeat;
+  background-position: center right 10px;
+  margin: 20px auto;
+  padding: 5px 0;
+  background-size: 64px auto;
+  position: relative;
+  background-color: rgb(3, 138, 204);
+  border-radius: 6px;
+}
+.webmaker {
+  background-image: url("usage-logo.png");
+}
+.marketplace {
+  background-image: url("usage-logo-bag.png");
+}
+.mdn {
+  background-image: url("logo_0014_80.png");
+}
+.appmaker {
+  background-image: url("appmaker_logo.png");
+  background-size: auto 64px !important;
+}
+#item #title {
+  position: absolute;
+  top: 0;
+  right: 84px;
+  line-height: 64px;
+  color: white;
+  font-family: 'Droid Arabic Kufi', serif;
+  font-size: 25px;
+}
+.appmaker #title{
+  right: 210px !important;
+}
+#call-to-action {
+  position: absolute;
+  top: 0;
+  left: 54px;
+  line-height: 64px;
+  color: white;
+  font-family: 'Droid Arabic Kufi', serif;
+  font-size: 25px;
+  text-decoration: none;
+}
+#call-to-ation:hover {
+  text-decoration: underline;
+}
+/* progress stuff */
+
+.progress {
+  overflow: hidden;
+  padding: 0 15px;
+  width: 220px;
+  height: 34px;
+  background: #d3d5d9;
+  border-radius: 1px;
+  background-color: #ebecef;
+  position: absolute;
+  top: 18px;
+  left: 200px;
+}
+.progress-val {
+  float: right;
+  margin-left: 15px;
+  font: bold 15px/34px Helvetica, Arial, sans-serif;
+  color: #333;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.6);
+}
+.progress-bar {
+  display: block;
+  overflow: hidden;
+  height: 8px;
+  margin: 13px 0;
+  background: #b8b8b8;
+  border-radius: 1px;
+}
+.progress-in {
+  display: block;
+  min-width: 8px;
+  height: 8px;
+  background: #1997e6;
+  border-radius: 1px;
+}
+#event-details-1 {
+  background-color: #C1423D;
+  width: 100%;
+  display: block;
+  padding: 10px 0;
+}
+#event-details-1 p {
+  color: white;
+  color: white;
+  font-family: 'Droid Arabic Kufi', serif;
+  font-size: 25px;
+}
+#event-details-1 #dashboard {
+  width: 100%;
+  display: block;
+  margin-bottom: 30px;
+}
+#event-details-1 #dashboard #sharing-element {
+  width: 128px;
+  height: 160px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: relative;
+  margin: 0 5px;
+}
+#event-details-1 #dashboard #sharing-element #title {
+  color: white;
+  font-size: 13px;
+  font-family: 'Droid Arabic Kufi', serif;
+  position: absolute;
+  bottom: 0px;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+}
+.evt-facebook {
+  background-image: url("Facebook-Flat.png");
+}
+.evt-twitter {
+  background-image: url("Twitter-Flat.png");
+}
+.evt-googleplus {
+  background-image: url("Googleplus-Flat.png");
+}
